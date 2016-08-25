@@ -1,7 +1,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <vector>
-using namespace std;
+
+using std::cout;
+using std::vector;
 
 int compare(const void* a, const void* b) {
 	return (*(int*)a-*(int*)b);
